@@ -1,0 +1,174 @@
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+       <style>
+           body {
+                background-color: lightgrey;
+            }
+            h1{
+                color: black;
+                text-align: center;
+            }
+            </style>
+            <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 100px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height: 300px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+</style>
+
+        <title>INDIAN VOTING SYSTEM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    
+    
+    
+    
+    
+    
+    <body>
+        <h1><img src="C:\Users\RISHABH DHIMAN\Documents\maxresdefault.jpg" width="200" height="58" align="left">VOTING SYSTEM</h1>
+        <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#elections">Elections</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#result">Results</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#elction1">Election Laws & ECI Instructions</a></li>    
+</ul>
+  <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="Login.html">LOGIN</a>
+  <a href="#">Sign in</a>
+  <a href="Signup.html">Sign up</a>
+</div>
+
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰ACCOUNTS</button>  
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidebar").style.width = "200px";
+    document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<table id="menutab" width="28%" border="0" cellspacing="5" cellpadding="5" class="table table-bordered table-hover table-striped" style="margin-top:8px;" bgcolor="#FFEFD5">
+<tr>
+     <td>Rajbhasha Division</td>
+	          </tr>
+                  <tr>
+		        <td>Voter Awareness/SVEEP</td>
+	          </tr>
+		      <tr>
+		        <td>International Cooperation</td>
+	          </tr>
+		      <tr>
+		        <td>IT & Automation Division</td>
+	          </tr>
+		      <tr>
+		        <td>Political Parties</td>
+	          </tr>
+		      <tr>
+		        <td>Candidates</td>
+	          </tr>
+		  
+	        
+                   <tr>
+		        <td><a href="#" class="leftmenu" data-popupmenu="popmenu1_nrivoting">NRI Voting Options</a></td>
+	          </tr>
+		 <tr>
+		        <td><a href="#" class="leftmenu" data-popupmenu="popmenu1_career">Career</a></td>
+	          </tr>
+	</table>
+    </body>
+</html>
